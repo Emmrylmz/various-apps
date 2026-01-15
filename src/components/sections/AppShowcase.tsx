@@ -305,9 +305,9 @@ export function AppShowcase({ app }: AppShowcaseProps) {
 
                 <div className="relative z-10">
                   <div className="w-12 h-12 mb-6 flex items-center justify-center border-2 border-black group-hover:border-white transition-colors">
-                    <Check className="w-6 h-6" />
+                    <Check className="w-6 h-6 text-black group-hover:text-white transition-colors" />
                   </div>
-                  <h3 className="text-2xl font-black mb-3">{feature.title}</h3>
+                  <h3 className="text-2xl font-black mb-3 text-black group-hover:text-white transition-colors">{feature.title}</h3>
                   <p className="text-gray-600 group-hover:text-white/80 transition-colors">
                     {feature.description}
                   </p>
