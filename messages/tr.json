@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "title": "Various Apps | Dijital Ustalar",
+    "description": "Teknoloji ile sanat arasındaki çizgiyi bulanıklaştıran dijital deneyimler tasarlıyoruz. Güzel tasarlanmış uygulama portföyümüzü keşfedin."
+  },
+  "hero": {
+    "accent": "Dijital Ustalar",
+    "title1": "VARIOUS",
+    "title2": "APPS",
+    "tagline": "Arasındaki çizgiyi bulanıklaştıran dijital deneyimler tasarlıyoruz",
+    "taglineHighlight": "teknoloji ve sanat",
+    "exploreWork": "ÇALIŞMALARI KEŞFET",
+    "contactUs": "BİZE ULAŞIN",
+    "scroll": "Kaydır"
+  },
+  "appsGrid": {
+    "sectionNumber": "01",
+    "sectionLabel": "Çalışmalarımız",
+    "title1": "DİJİTAL",
+    "title2": "DENEYİMLER",
+    "explore": "KEŞFET",
+    "portfolioLabel": "PORTFÖY",
+    "activeProjects": "{count} Aktif Proje"
+  },
+  "featured": {
+    "sectionNumber": "02",
+    "sectionLabel": "Öne Çıkan",
+    "viewCaseStudy": "DETAYLARI GÖR",
+    "users": "Kullanıcı",
+    "rating": "Puan",
+    "platforms": "Platform"
+  },
+  "studio": {
+    "sectionNumber": "03",
+    "sectionLabel": "Stüdyo",
+    "title1": "BİZ",
+    "title2": "DİJİTAL",
+    "title3": "SANATÇIYIZ",
+    "description1": "Various Apps bir yazılım şirketinden fazlası. Biz bir",
+    "creativeLab": "yaratıcı laboratuvar",
+    "description2": "tasarımcıların, geliştiricilerin ve hayalperestlerin dijital deneyimlerin geleceğini inşa etmek için işbirliği yaptığı bir yer.",
+    "description3": "Teknolojinin",
+    "beautiful": "güzel",
+    "functional": "işlevsel",
+    "inspiring": "ilham verici",
+    "description4": "olması gerektiğine inanıyoruz. Her proje, gelenekleri sorgulamak ve olağanüstü bir şey yaratmak için bir fırsat.",
+    "quote": "Sadece uygulama yapmıyoruz. Sanat ve teknolojinin kesiştiği noktada yaşayan deneyimler yaratıyoruz.",
+    "quoteAuthor": "— Various Apps Manifestosu",
+    "principles": {
+      "innovation": {
+        "title": "İnovasyon",
+        "description": "Deneysel tasarım ve son teknoloji ile sınırları zorluyoruz"
+      },
+      "velocity": {
+        "title": "Hız",
+        "description": "Hiçbir şeyi bozmadan hızlı hareket ediyoruz. Çevik ustalık"
+      },
+      "userFirst": {
+        "title": "Kullanıcı Öncelikli",
+        "description": "Her karar kullanıcılarımızı anlamakla başlar"
+      },
+      "craft": {
+        "title": "Ustalık",
+        "description": "Her piksel, her satır kod—titizlikle işlenmiş"
+      }
+    },
+    "stats": {
+      "founded": "Kuruluş",
+      "appsBuilt": "Uygulama",
+      "totalUsers": "Toplam Kullanıcı",
+      "avgRating": "Ort. Puan"
+    }
+  },
+  "contact": {
+    "sectionNumber": "04",
+    "sectionLabel": "İletişim",
+    "title1": "BİR PROJE",
+    "title2": "BAŞLAT",
+    "description": "Bir fikriniz mi var? İşbirliği yapmak mı istiyorsunuz? Ya da sadece merhaba demek mi? Yaratıcılar ve yenilikçilerle bağlantı kurmaktan her zaman heyecan duyuyoruz.",
+    "getInTouch": "İLETİŞİME GEÇ",
+    "emailLabel": "Ya da doğrudan e-posta gönderin",
+    "followJourney": "YOLCULUĞU TAKİP ET",
+    "newsletter": {
+      "title": "BÜLTEN",
+      "description": "Tasarım, geliştirme ve dijital inovasyon hakkında aylık içgörüler alın",
+      "placeholder": "email@adresiniz.com"
+    },
+    "footer": {
+      "copyright": "Tüm hakları saklıdır",
+      "privacy": "Gizlilik",
+      "terms": "Şartlar",
+      "careers": "Kariyer",
+      "craftedWith": "Tutku ile yapıldı",
+      "location": "dünyanın bir yerinde"
+    }
+  },
+  "appPage": {
+    "backToApps": "Uygulamalara Dön",
+    "comingSoon": "Yakında",
+    "getNotified": "Haberdar Ol",
+    "backToHome": "Ana Sayfaya Dön",
+    "features": {
+      "sectionLabel": "Özellikler",
+      "title1": "ONU ÖZEL YAPAN",
+      "title2": "ŞEYLER"
+    },
+    "about": {
+      "sectionLabel": "Hakkında",
+      "title": "HİKAYESİ"
+    },
+    "moreApps": {
+      "sectionLabel": "Keşfet",
+      "title1": "DİĞER",
+      "title2": "UYGULAMALAR",
+      "viewAll": "TÜMÜNÜ GÖR"
+    },
+    "cta": {
+      "readyToTry": "DENEMEYİ HAZIR MISIN",
+      "downloadNow": "Şimdi indirin ve kendiniz deneyimleyin."
+    }
+  },
+  "apps": {
+    "viona": {
+      "name": "Viona",
+      "tagline": "Mükemmel randevunu ayırt",
+      "description": "Sizi en iyi yerel hizmet sağlayıcılarla buluşturan modern bir rezervasyon platformu. Randevuları zahmetsizce bulun, ayırtın ve yönetin.",
+      "longDescription": "Viona, hizmetleri keşfetme ve rezervasyon yapma şeklinizi dönüştürüyor. İster saç kesimi, ister spa tedavisi veya herhangi bir kişisel hizmet olsun, Viona tüm deneyimi parmaklarınızın ucuna getiriyor.\n\nAkıllı öneri sistemimiz tercihlerinizi öğrenir ve size mükemmel sağlayıcıları önerir. Gerçek zamanlı müsaitlik, anında rezervasyon onayları ve sorunsuz ödeme işleme, Viona'yı kişisel bakım için vazgeçilmez yardımcınız yapar.",
+      "features": {
+        "smartDiscovery": {
+          "title": "Akıllı Keşif",
+          "description": "Tercihlerinize ve konumunuza göre yapay zeka destekli öneriler"
+        },
+        "realTimeBooking": {
+          "title": "Gerçek Zamanlı Rezervasyon",
+          "description": "Canlı müsaitliği görün ve onay ile anında rezervasyon yapın"
+        },
+        "securePayments": {
+          "title": "Güvenli Ödemeler",
+          "description": "Birden fazla ödeme seçeneğiyle uygulama üzerinden güvenle ödeme yapın"
+        },
+        "reviews": {
+          "title": "Yorumlar ve Puanlar",
+          "description": "Doğrulanmış müşteri yorumlarıyla bilinçli kararlar verin"
+        },
+        "reminders": {
+          "title": "Hatırlatıcılar",
+          "description": "Akıllı bildirimlerle hiçbir randevuyu kaçırmayın"
+        },
+        "favorites": {
+          "title": "Favoriler",
+          "description": "Hızlı yeniden rezervasyon için favori sağlayıcılarınızı kaydedin"
+        }
+      },
+      "testimonial": {
+        "quote": "Viona randevularımı ayırtmayı çok daha kolay hale getirdi. Tüm müsait saatleri gerçek zamanlı olarak görebilmeme bayılıyorum!",
+        "author": "Ayşe K.",
+        "role": "Düzenli Kullanıcı"
+      }
+    },
+    "viona-partner": {
+      "name": "Viona Partner",
+      "tagline": "İşletmenizi büyütün",
+      "description": "Hizmet sağlayıcılar için eksiksiz işletme yönetimi çözümü. Rezervasyonları yönetin, analizleri takip edin ve müşteri tabanınızı büyütün.",
+      "longDescription": "Viona Partner, hizmet sağlayıcıları işletmelerini yönetmek ve büyütmek için profesyonel araçlarla güçlendirir. Randevu yönetiminden müşteri içgörülerine kadar ihtiyacınız olan her şey tek bir yerde.\n\nDetaylı analizlerle performansınızı takip edin, ekibinizin programlarını yönetin ve entegre CRM özellikleriyle müşterilerinizle kalıcı ilişkiler kurun.",
+      "features": {
+        "calendar": {
+          "title": "Takvim Yönetimi",
+          "description": "Sürükle-bırak işlevselliğine sahip sezgisel planlama sistemi"
+        },
+        "analytics": {
+          "title": "İş Analitiği",
+          "description": "Gelir, rezervasyonlar ve büyüme hakkında kapsamlı içgörüler"
+        },
+        "team": {
+          "title": "Ekip Yönetimi",
+          "description": "Personel programlarını ve izinleri zahmetsizce yönetin"
+        },
+        "crm": {
+          "title": "Müşteri CRM",
+          "description": "Müşteri profilleri oluşturun ve ziyaret geçmişini takip edin"
+        },
+        "notifications": {
+          "title": "Anlık Bildirimler",
+          "description": "Yeni rezervasyonlar ve değişiklikler için anında uyarılar"
+        },
+        "gallery": {
+          "title": "Fotoğraf Galerisi",
+          "description": "Çalışmalarınızı profesyonel bir portföyyle sergileyin"
+        }
+      },
+      "testimonial": {
+        "quote": "Viona Partner'a geçtiğimizden beri, gelmeyenlerimiz %60 azaldı ve rezervasyonlar önemli ölçüde arttı.",
+        "author": "Mehmet'in Berber Salonu",
+        "role": "İşletme Sahibi"
+      }
+    },
+    "qr-sessions": {
+      "name": "QR Sessions",
+      "tagline": "Oturumlar kolaylaştırıldı",
+      "description": "QR kodlarıyla oturumlar oluşturun, paylaşın ve yönetin. Etkinlikler, dersler, toplantılar ve katılımın önemli olduğu her yer için mükemmel.",
+      "longDescription": "QR Sessions, katılım ve oturum yönetimi şeklinizi devrimleştirir. Herhangi bir etkinlik için benzersiz QR kodları oluşturun, anında paylaşın ve katılımı gerçek zamanlı olarak takip edin.\n\nİster bir atölye yönetiyor, ister bir sınıfı yönetiyor veya bir etkinlik düzenliyor olun, QR Sessions check-in sürecini kolaylaştırmak ve değerli katılım verileri toplamak için ihtiyacınız olan araçları sağlar.",
+      "features": {
+        "qrGeneration": {
+          "title": "Anında QR Oluşturma",
+          "description": "Saniyeler içinde herhangi bir oturum için benzersiz, güvenli QR kodları oluşturun"
+        },
+        "tracking": {
+          "title": "Gerçek Zamanlı Takip",
+          "description": "Katılımcılar giriş yaparken katılımı canlı olarak izleyin"
+        },
+        "management": {
+          "title": "Oturum Yönetimi",
+          "description": "Oturumları kolayca organize edin ve planlayın"
+        },
+        "export": {
+          "title": "Veri Dışa Aktarma",
+          "description": "Katılım raporlarını birden fazla formatta indirin"
+        },
+        "offline": {
+          "title": "Çevrimdışı Destek",
+          "description": "İnternet bağlantısı olmadan bile çalışır"
+        },
+        "multiSession": {
+          "title": "Çoklu Oturum Etkinlikleri",
+          "description": "Birden fazla oturumlu karmaşık etkinlikleri yönetin"
+        }
+      },
+      "testimonial": {
+        "quote": "QR Sessions, atölyelerimizde katılımı takip etme şeklimizi dönüştürdü. İnanılmaz sezgisel!",
+        "author": "Teknoloji Akademisi",
+        "role": "Eğitim Ortağı"
+      }
+    },
+    "posture-pal": {
+      "name": "PosturePal",
+      "tagline": "Dost canlısı duruş arkadaşınız",
+      "description": "Sağlıklı alışkanlıklar edinmenize yardımcı olan yapay zeka destekli duruş izleme. Gerçek zamanlı geri bildirim alın ve duruşunuzu doğal olarak iyileştirin.",
+      "longDescription": "Daha iyi duruş yolculuğunuzda dost canlısı zürafa arkadaşınız PosturePal ile tanışın! Gelişmiş ML destekli poz algılama kullanarak, PosturePal duruşunuzu gerçek zamanlı olarak izler ve daha iyi oturmanıza ve durmanıza yardımcı olmak için nazik hatırlatmalar sağlar.\n\nSevimli zürafa maskotumuz duruşunuzu iyileştirmeyi keyifli bir deneyime dönüştürür. İlerlemenizi takip edin, hedefler belirleyin ve duruşunuzun gün be gün iyileşmesini izleyin.",
+      "features": {
+        "aiDetection": {
+          "title": "Yapay Zeka Duruş Algılama",
+          "description": "Doğru poz analizi için gelişmiş ML Kit entegrasyonu"
+        },
+        "feedback": {
+          "title": "Gerçek Zamanlı Geri Bildirim",
+          "description": "Duruşunuzun düzeltilmesi gerektiğinde anında bildirimler"
+        },
+        "progress": {
+          "title": "İlerleme Takibi",
+          "description": "Detaylı istatistiklerle zaman içindeki gelişiminizi görselleştirin"
+        },
+        "mascot": {
+          "title": "Dost Canlısı Maskot",
+          "description": "Zürafa arkadaşınız duruş eğitimini eğlenceli hale getirir"
+        },
+        "haptic": {
+          "title": "Dokunsal Geri Bildirim",
+          "description": "Nazik titreşimler size düzelmemizi hatırlatır"
+        },
+        "privacy": {
+          "title": "Gizlilik Öncelikli",
+          "description": "Tüm işlemler tam gizlilik için cihaz üzerinde gerçekleşir"
+        }
+      },
+      "testimonial": {
+        "quote": "Zürafa maskotu çok sevimli ve duruş hatırlatıcıları bel ağrıma gerçekten yardımcı oldu!",
+        "author": "Zeynep A.",
+        "role": "Uzaktan Çalışan"
+      }
+    }
+  },
+  "common": {
+    "users": "Kullanıcı",
+    "rating": "Puan",
+    "platforms": "Platform",
+    "ios": "iOS",
+    "android": "Android",
+    "web": "Web",
+    "active": "Aktif",
+    "beta": "Beta",
+    "comingSoon": "Yakında"
+  }
+}

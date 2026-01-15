@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "title": "Various Apps | Digital Craftsmen",
+    "description": "We craft digital experiences that blur the line between technology and art. Explore our portfolio of beautifully designed apps."
+  },
+  "hero": {
+    "accent": "Digital Craftsmen",
+    "title1": "VARIOUS",
+    "title2": "APPS",
+    "tagline": "We craft digital experiences that blur the line between",
+    "taglineHighlight": "technology and art",
+    "exploreWork": "EXPLORE WORK",
+    "contactUs": "CONTACT US",
+    "scroll": "Scroll"
+  },
+  "appsGrid": {
+    "sectionNumber": "01",
+    "sectionLabel": "Our Work",
+    "title1": "DIGITAL",
+    "title2": "EXPERIENCES",
+    "explore": "EXPLORE",
+    "portfolioLabel": "PORTFOLIO",
+    "activeProjects": "{count} Active Projects"
+  },
+  "featured": {
+    "sectionNumber": "02",
+    "sectionLabel": "Featured",
+    "viewCaseStudy": "VIEW CASE STUDY",
+    "users": "Users",
+    "rating": "Rating",
+    "platforms": "Platforms"
+  },
+  "studio": {
+    "sectionNumber": "03",
+    "sectionLabel": "The Studio",
+    "title1": "WE ARE",
+    "title2": "DIGITAL",
+    "title3": "ARTISTS",
+    "description1": "Various Apps is more than a software company. We're a",
+    "creativeLab": "creative laboratory",
+    "description2": "where designers, developers, and dreamers collaborate to build the future of digital experiences.",
+    "description3": "We believe technology should be",
+    "beautiful": "beautiful",
+    "functional": "functional",
+    "inspiring": "inspiring",
+    "description4": "Every project is an opportunity to challenge conventions and create something extraordinary.",
+    "quote": "We don't just build apps. We craft experiences that live at the intersection of art and technology.",
+    "quoteAuthor": "— Various Apps Manifesto",
+    "principles": {
+      "innovation": {
+        "title": "Innovation",
+        "description": "Pushing boundaries with experimental design and cutting-edge tech"
+      },
+      "velocity": {
+        "title": "Velocity",
+        "description": "Moving fast without breaking things. Agile meets artistry"
+      },
+      "userFirst": {
+        "title": "User-First",
+        "description": "Every decision starts with understanding our users"
+      },
+      "craft": {
+        "title": "Craft",
+        "description": "Every pixel, every line of code—meticulously crafted"
+      }
+    },
+    "stats": {
+      "founded": "Founded",
+      "appsBuilt": "Apps Built",
+      "totalUsers": "Total Users",
+      "avgRating": "Avg Rating"
+    }
+  },
+  "contact": {
+    "sectionNumber": "04",
+    "sectionLabel": "Let's Talk",
+    "title1": "START A",
+    "title2": "PROJECT",
+    "description": "Have an idea? Want to collaborate? Or just want to say hi? We're always excited to connect with fellow creators and innovators.",
+    "getInTouch": "GET IN TOUCH",
+    "emailLabel": "Or email us directly at",
+    "followJourney": "FOLLOW THE JOURNEY",
+    "newsletter": {
+      "title": "NEWSLETTER",
+      "description": "Get monthly insights on design, development, and digital innovation",
+      "placeholder": "your@email.com"
+    },
+    "footer": {
+      "copyright": "All rights reserved",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "careers": "Careers",
+      "craftedWith": "Crafted with passion",
+      "location": "somewhere on Earth"
+    }
+  },
+  "appPage": {
+    "backToApps": "Back to Apps",
+    "comingSoon": "Coming Soon",
+    "getNotified": "Get Notified",
+    "backToHome": "Back to Home",
+    "features": {
+      "sectionLabel": "Features",
+      "title1": "WHAT MAKES IT",
+      "title2": "SPECIAL"
+    },
+    "about": {
+      "sectionLabel": "About",
+      "title": "THE STORY BEHIND"
+    },
+    "moreApps": {
+      "sectionLabel": "Explore",
+      "title1": "MORE",
+      "title2": "APPS",
+      "viewAll": "VIEW ALL"
+    },
+    "cta": {
+      "readyToTry": "READY TO TRY",
+      "downloadNow": "Download now and experience it yourself."
+    }
+  },
+  "apps": {
+    "viona": {
+      "name": "Viona",
+      "tagline": "Book your perfect appointment",
+      "description": "A modern booking platform that connects you with the best local service providers. Find, book, and manage appointments effortlessly.",
+      "longDescription": "Viona transforms how you discover and book services. Whether it's a haircut, spa treatment, or any personal service, Viona brings the entire experience to your fingertips.\n\nOur intelligent recommendation system learns your preferences and suggests the perfect providers for you. Real-time availability, instant booking confirmations, and seamless payment processing make Viona your go-to companion for self-care.",
+      "features": {
+        "smartDiscovery": {
+          "title": "Smart Discovery",
+          "description": "AI-powered recommendations based on your preferences and location"
+        },
+        "realTimeBooking": {
+          "title": "Real-time Booking",
+          "description": "See live availability and book instantly with confirmation"
+        },
+        "securePayments": {
+          "title": "Secure Payments",
+          "description": "Pay securely through the app with multiple payment options"
+        },
+        "reviews": {
+          "title": "Reviews & Ratings",
+          "description": "Make informed decisions with verified customer reviews"
+        },
+        "reminders": {
+          "title": "Reminders",
+          "description": "Never miss an appointment with smart notifications"
+        },
+        "favorites": {
+          "title": "Favorites",
+          "description": "Save your favorite providers for quick rebooking"
+        }
+      },
+      "testimonial": {
+        "quote": "Viona made booking my appointments so much easier. I love how I can see all available slots in real-time!",
+        "author": "Sarah M.",
+        "role": "Regular User"
+      }
+    },
+    "viona-partner": {
+      "name": "Viona Partner",
+      "tagline": "Grow your service business",
+      "description": "The complete business management solution for service providers. Manage bookings, track analytics, and grow your customer base.",
+      "longDescription": "Viona Partner empowers service providers with professional tools to manage and grow their business. From appointment management to customer insights, everything you need is in one place.\n\nTrack your performance with detailed analytics, manage your team's schedules, and build lasting relationships with your clients through our integrated CRM features.",
+      "features": {
+        "calendar": {
+          "title": "Calendar Management",
+          "description": "Intuitive scheduling system with drag-and-drop functionality"
+        },
+        "analytics": {
+          "title": "Business Analytics",
+          "description": "Comprehensive insights into revenue, bookings, and growth"
+        },
+        "team": {
+          "title": "Team Management",
+          "description": "Manage staff schedules and permissions effortlessly"
+        },
+        "crm": {
+          "title": "Customer CRM",
+          "description": "Build customer profiles and track visit history"
+        },
+        "notifications": {
+          "title": "Push Notifications",
+          "description": "Instant alerts for new bookings and changes"
+        },
+        "gallery": {
+          "title": "Photo Gallery",
+          "description": "Showcase your work with a professional portfolio"
+        }
+      },
+      "testimonial": {
+        "quote": "Since switching to Viona Partner, our no-shows dropped by 60% and bookings increased significantly.",
+        "author": "Mike's Barbershop",
+        "role": "Business Owner"
+      }
+    },
+    "qr-sessions": {
+      "name": "QR Sessions",
+      "tagline": "Sessions made simple",
+      "description": "Create, share, and manage sessions with QR codes. Perfect for events, classes, meetings, and anywhere attendance matters.",
+      "longDescription": "QR Sessions revolutionizes how you manage attendance and sessions. Generate unique QR codes for any event, share them instantly, and track participation in real-time.\n\nWhether you're running a workshop, managing a classroom, or organizing an event, QR Sessions provides the tools you need to streamline the check-in process and gather valuable attendance data.",
+      "features": {
+        "qrGeneration": {
+          "title": "Instant QR Generation",
+          "description": "Create unique, secure QR codes for any session in seconds"
+        },
+        "tracking": {
+          "title": "Real-time Tracking",
+          "description": "Monitor attendance as participants check in live"
+        },
+        "management": {
+          "title": "Session Management",
+          "description": "Organize and schedule sessions with ease"
+        },
+        "export": {
+          "title": "Export Data",
+          "description": "Download attendance reports in multiple formats"
+        },
+        "offline": {
+          "title": "Offline Support",
+          "description": "Works even without internet connection"
+        },
+        "multiSession": {
+          "title": "Multi-session Events",
+          "description": "Manage complex events with multiple sessions"
+        }
+      },
+      "testimonial": {
+        "quote": "QR Sessions has transformed how we track attendance at our workshops. It's incredibly intuitive!",
+        "author": "Tech Academy",
+        "role": "Education Partner"
+      }
+    },
+    "posture-pal": {
+      "name": "PosturePal",
+      "tagline": "Your friendly posture companion",
+      "description": "AI-powered posture monitoring that helps you build healthier habits. Get real-time feedback and improve your posture naturally.",
+      "longDescription": "Meet PosturePal, your friendly giraffe companion on the journey to better posture! Using advanced ML-powered pose detection, PosturePal monitors your posture in real-time and provides gentle reminders to help you sit and stand better.\n\nOur charming giraffe mascot makes improving your posture a delightful experience. Track your progress, set goals, and watch as your posture improves day by day.",
+      "features": {
+        "aiDetection": {
+          "title": "AI Posture Detection",
+          "description": "Advanced ML Kit integration for accurate pose analysis"
+        },
+        "feedback": {
+          "title": "Real-time Feedback",
+          "description": "Instant notifications when your posture needs correction"
+        },
+        "progress": {
+          "title": "Progress Tracking",
+          "description": "Visualize your improvement over time with detailed stats"
+        },
+        "mascot": {
+          "title": "Friendly Mascot",
+          "description": "Your giraffe companion makes posture training fun"
+        },
+        "haptic": {
+          "title": "Haptic Feedback",
+          "description": "Gentle vibrations remind you to straighten up"
+        },
+        "privacy": {
+          "title": "Privacy First",
+          "description": "All processing happens on-device for complete privacy"
+        }
+      },
+      "testimonial": {
+        "quote": "The giraffe mascot is adorable and the posture reminders have really helped my back pain!",
+        "author": "Jamie L.",
+        "role": "Remote Worker"
+      }
+    }
+  },
+  "common": {
+    "users": "Users",
+    "rating": "Rating",
+    "platforms": "Platforms",
+    "ios": "iOS",
+    "android": "Android",
+    "web": "Web",
+    "active": "Active",
+    "beta": "Beta",
+    "comingSoon": "Coming Soon"
+  }
+}
