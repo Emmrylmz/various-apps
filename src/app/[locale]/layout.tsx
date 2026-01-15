@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { Geist, Geist_Mono } from 'next/font/google';
 import { routing } from '@/i18n/routing';
 import { locales, type Locale } from '@/i18n/config';
+import { OrganizationJsonLd, WebsiteJsonLd } from '@/components/seo/JsonLd';
 import '../globals.css';
 
 const geistSans = Geist({
@@ -42,8 +43,20 @@ export default async function LocaleLayout({
   // Providing all messages to the client
   const messages = await getMessages();
 
+  const baseUrl = 'https://various-apps.com';
+
   return (
     <html lang={locale} className="dark">
+      <head>
+        {/* Hreflang tags for international SEO */}
+        <link rel="alternate" hrefLang="en" href={baseUrl} />
+        <link rel="alternate" hrefLang="tr" href={`${baseUrl}/tr`} />
+        <link rel="alternate" hrefLang="x-default" href={baseUrl} />
+
+        {/* Structured data */}
+        <OrganizationJsonLd />
+        <WebsiteJsonLd />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-black text-white`}
       >

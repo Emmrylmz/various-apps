@@ -29,36 +29,62 @@ export async function generateMetadata({ params }: AppPageProps): Promise<Metada
 
   if (!app) {
     return {
-      title: 'App Not Found | Various Apps',
+      title: 'App Not Found',
     };
   }
 
   const name = t(`${slug}.name`);
+  const tagline = t(`${slug}.tagline`);
   const description = t(`${slug}.description`);
 
+  // Create SEO-optimized title and description
+  const seoTitle = `${name} - ${tagline}`;
+  const seoDescription = `${description} Download ${name} for ${app.platforms.map(p => p === 'ios' ? 'iOS' : p === 'android' ? 'Android' : 'Web').join(' & ')}. By Various Apps.`;
+
+  // Platform-specific keywords
+  const platformKeywords = app.platforms.map(p =>
+    p === 'ios' ? 'iOS app' : p === 'android' ? 'Android app' : 'web app'
+  );
+
   return {
-    title: `${name} | Various Apps`,
-    description: description,
+    title: seoTitle,
+    description: seoDescription,
+    keywords: [
+      name,
+      tagline,
+      ...platformKeywords,
+      'mobile app',
+      'Various Apps',
+      slug,
+    ],
+    alternates: {
+      canonical: `/apps/${slug}`,
+      languages: {
+        'en': `/en/apps/${slug}`,
+        'tr': `/tr/apps/${slug}`,
+      },
+    },
     openGraph: {
-      title: `${name} | Various Apps`,
-      description: description,
-      url: `https://variousapps.com/${locale}/apps/${slug}`,
+      title: seoTitle,
+      description: seoDescription,
+      url: `https://various-apps.com/${locale === 'en' ? '' : locale + '/'}apps/${slug}`,
       siteName: 'Various Apps',
       type: 'website',
+      locale: locale === 'tr' ? 'tr_TR' : 'en_US',
       images: [
         {
-          url: app.logo,
+          url: `/apps/${slug}/icon.png`,
           width: 512,
           height: 512,
-          alt: name,
+          alt: `${name} App Icon`,
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${name} | Various Apps`,
-      description: description,
-      images: [app.logo],
+      title: seoTitle,
+      description: seoDescription,
+      images: [`/apps/${slug}/icon.png`],
     },
   };
 }
