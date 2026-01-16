@@ -105,13 +105,13 @@ export function StudioSection() {
                   <div className="relative z-10">
                     <div className="flex items-start gap-4 mb-4">
                       <div className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center border-2 border-black group-hover:border-white transition-colors">
-                        <Icon className="w-6 h-6 md:w-7 md:h-7" />
+                        <Icon className="w-6 h-6 md:w-7 md:h-7 text-black group-hover:text-white transition-colors" />
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-xl md:text-2xl font-black mb-2">
+                        <h3 className="text-xl md:text-2xl font-black mb-2 text-black group-hover:text-white transition-colors">
                           {t(`principles.${key}.title`)}
                         </h3>
-                        <p className="text-sm opacity-80">
+                        <p className="text-sm text-gray-600 group-hover:text-white/80 transition-colors">
                           {t(`principles.${key}.description`)}
                         </p>
                       </div>
