@@ -267,6 +267,43 @@
         "author": "Jamie L.",
         "role": "Remote Worker"
       }
+    },
+    "ai-poster": {
+      "name": "AI Poster",
+      "tagline": "Automate your social media",
+      "description": "AI-powered social media automation that generates content and publishes across platforms on schedule. Connect, create, and grow your presence effortlessly.",
+      "longDescription": "AI Poster is your intelligent social media companion that takes the hassle out of content creation and publishing. Connect your Facebook, Instagram, and Pinterest accounts, and let AI do the heavy lifting.\n\nOur advanced AI generates engaging captions and stunning images tailored to your brand. Schedule posts across multiple platforms, track performance analytics, and watch your social presence grow—all from one powerful dashboard.",
+      "features": {
+        "aiContent": {
+          "title": "AI Content Generation",
+          "description": "Generate engaging captions and hashtags with advanced AI models"
+        },
+        "aiImage": {
+          "title": "AI Image Creation",
+          "description": "Create stunning visuals with DALL-E 3 image generation"
+        },
+        "multiPlatform": {
+          "title": "Multi-Platform Publishing",
+          "description": "Post to Facebook, Instagram, and Pinterest from one place"
+        },
+        "scheduling": {
+          "title": "Smart Scheduling",
+          "description": "Schedule posts with timezone-aware automation"
+        },
+        "analytics": {
+          "title": "Analytics Dashboard",
+          "description": "Track engagement metrics and optimize your strategy"
+        },
+        "security": {
+          "title": "Secure OAuth",
+          "description": "Bank-grade encryption for all your connected accounts"
+        }
+      },
+      "testimonial": {
+        "quote": "AI Poster has transformed how I manage social media for my clients. The AI-generated content is impressive!",
+        "author": "Digital Agency",
+        "role": "Marketing Partner"
+      }
     }
   },
   "common": {

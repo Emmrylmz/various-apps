@@ -267,6 +267,63 @@ Our charming giraffe mascot makes improving your posture a delightful experience
       role: "Remote Worker",
     },
   },
+  {
+    slug: 'ai-poster',
+    name: 'AI Poster',
+    tagline: 'Automate your social media',
+    description: 'AI-powered social media automation that generates content and publishes across platforms on schedule. Connect, create, and grow your presence effortlessly.',
+    longDescription: `AI Poster is your intelligent social media companion that takes the hassle out of content creation and publishing. Connect your Facebook, Instagram, and Pinterest accounts, and let AI do the heavy lifting.
+
+Our advanced AI generates engaging captions and stunning images tailored to your brand. Schedule posts across multiple platforms, track performance analytics, and watch your social presence grow—all from one powerful dashboard.`,
+    logo: '/apps/ai-poster/logo.png',
+    icon: '/apps/ai-poster/icon.png',
+    screenshots: [
+      '/apps/ai-poster/screenshot-1.png',
+      '/apps/ai-poster/screenshot-2.png',
+      '/apps/ai-poster/screenshot-3.png',
+    ],
+    features: [
+      {
+        title: 'AI Content Generation',
+        description: 'Generate engaging captions and hashtags with advanced AI models',
+      },
+      {
+        title: 'AI Image Creation',
+        description: 'Create stunning visuals with DALL-E 3 image generation',
+      },
+      {
+        title: 'Multi-Platform Publishing',
+        description: 'Post to Facebook, Instagram, and Pinterest from one place',
+      },
+      {
+        title: 'Smart Scheduling',
+        description: 'Schedule posts with timezone-aware automation',
+      },
+      {
+        title: 'Analytics Dashboard',
+        description: 'Track engagement metrics and optimize your strategy',
+      },
+      {
+        title: 'Secure OAuth',
+        description: 'Bank-grade encryption for all your connected accounts',
+      },
+    ],
+    links: [],
+    status: 'beta',
+    platforms: ['web'],
+    primaryColor: '#8B5CF6',
+    secondaryColor: '#7C3AED',
+    gradient: 'from-violet-500 to-purple-600',
+    stats: {
+      users: '500+',
+      rating: '4.7',
+    },
+    testimonial: {
+      quote: "AI Poster has transformed how I manage social media for my clients. The AI-generated content is impressive!",
+      author: "Digital Agency",
+      role: "Marketing Partner",
+    },
+  },
 ];
 
 export function getAppBySlug(slug: string): AppData | undefined {

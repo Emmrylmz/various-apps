@@ -267,6 +267,43 @@
         "author": "Zeynep A.",
         "role": "Uzaktan Çalışan"
       }
+    },
+    "ai-poster": {
+      "name": "AI Poster",
+      "tagline": "Sosyal medyanızı otomatikleştirin",
+      "description": "İçerik üreten ve programlı olarak platformlara yayınlayan yapay zeka destekli sosyal medya otomasyonu. Bağlanın, oluşturun ve varlığınızı zahmetsizce büyütün.",
+      "longDescription": "AI Poster, içerik oluşturma ve yayınlama zahmetini ortadan kaldıran akıllı sosyal medya arkadaşınızdır. Facebook, Instagram ve Pinterest hesaplarınızı bağlayın ve yapay zekanın ağır işleri yapmasına izin verin.\n\nGelişmiş yapay zekamız, markanıza özel etkileyici açıklamalar ve çarpıcı görseller üretir. Birden fazla platformda paylaşımlar planlayın, performans analitiğini takip edin ve sosyal varlığınızın büyümesini izleyin—hepsi tek bir güçlü kontrol panelinden.",
+      "features": {
+        "aiContent": {
+          "title": "Yapay Zeka İçerik Üretimi",
+          "description": "Gelişmiş yapay zeka modelleriyle etkileyici açıklamalar ve hashtagler oluşturun"
+        },
+        "aiImage": {
+          "title": "Yapay Zeka Görsel Oluşturma",
+          "description": "DALL-E 3 görsel üretimi ile çarpıcı görseller yaratın"
+        },
+        "multiPlatform": {
+          "title": "Çoklu Platform Yayını",
+          "description": "Tek bir yerden Facebook, Instagram ve Pinterest'e paylaşın"
+        },
+        "scheduling": {
+          "title": "Akıllı Zamanlama",
+          "description": "Saat dilimi farkındalığı ile paylaşımları planlayın"
+        },
+        "analytics": {
+          "title": "Analitik Paneli",
+          "description": "Etkileşim metriklerini takip edin ve stratejinizi optimize edin"
+        },
+        "security": {
+          "title": "Güvenli OAuth",
+          "description": "Bağlı hesaplarınız için banka düzeyinde şifreleme"
+        }
+      },
+      "testimonial": {
+        "quote": "AI Poster, müşterilerim için sosyal medyayı yönetme şeklimi dönüştürdü. Yapay zeka tarafından üretilen içerik etkileyici!",
+        "author": "Dijital Ajans",
+        "role": "Pazarlama Ortağı"
+      }
     }
   },
   "common": {

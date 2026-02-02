@@ -247,22 +247,49 @@ export function AppShowcase({ app }: AppShowcaseProps) {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <div className="relative mx-auto">
-                {/* Use real mockups for all apps */}
-                <div className="relative lg:scale-[1.8] lg:origin-center lg:translate-x-[15%]">
-                  <Image
-                    src={
-                      app.slug === 'viona' ? '/apps/viona/mockups/Jla3P43tx11 (25).png' :
-                      app.slug === 'viona-partner' ? '/apps/viona-partner/mockups/Jla3P43tx11 (28).png' :
-                      app.slug === 'qr-sessions' ? '/apps/qr-sessions/mockups/Jla3P43tx11 (29).png' :
-                      '/apps/posture-pal/mockups/Jla3P43tx11 (26).png'
-                    }
-                    alt={`${appName} App Mockup`}
-                    width={1600}
-                    height={1920}
-                    className="w-full h-auto drop-shadow-2xl"
-                    priority
-                  />
-                </div>
+                {/* Use real mockups for apps that have them, gradient placeholder for ai-poster */}
+                {app.slug === 'ai-poster' ? (
+                  <div className="relative lg:scale-[1.4] lg:origin-center">
+                    <div className={`w-full aspect-[4/3] bg-gradient-to-br ${app.gradient} rounded-3xl shadow-2xl flex items-center justify-center p-8`}>
+                      <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 w-full h-full flex flex-col items-center justify-center gap-6">
+                        <div className="w-20 h-20 rounded-2xl bg-white/20 flex items-center justify-center">
+                          <span className="text-4xl font-black text-white">AI</span>
+                        </div>
+                        <div className="text-center">
+                          <p className="text-white/90 text-xl font-bold mb-2">Dashboard Coming Soon</p>
+                          <p className="text-white/60 text-sm">Web Application</p>
+                        </div>
+                        <div className="flex gap-4 mt-4">
+                          <div className="w-16 h-16 rounded-xl bg-white/10 flex items-center justify-center">
+                            <span className="text-2xl">📊</span>
+                          </div>
+                          <div className="w-16 h-16 rounded-xl bg-white/10 flex items-center justify-center">
+                            <span className="text-2xl">🤖</span>
+                          </div>
+                          <div className="w-16 h-16 rounded-xl bg-white/10 flex items-center justify-center">
+                            <span className="text-2xl">📱</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="relative lg:scale-[1.8] lg:origin-center lg:translate-x-[15%]">
+                    <Image
+                      src={
+                        app.slug === 'viona' ? '/apps/viona/mockups/Jla3P43tx11 (25).png' :
+                        app.slug === 'viona-partner' ? '/apps/viona-partner/mockups/Jla3P43tx11 (28).png' :
+                        app.slug === 'qr-sessions' ? '/apps/qr-sessions/mockups/Jla3P43tx11 (29).png' :
+                        '/apps/posture-pal/mockups/Jla3P43tx11 (26).png'
+                      }
+                      alt={`${appName} App Mockup`}
+                      width={1600}
+                      height={1920}
+                      className="w-full h-auto drop-shadow-2xl"
+                      priority
+                    />
+                  </div>
+                )}
               </div>
             </motion.div>
           </div>
@@ -369,6 +396,17 @@ export function AppShowcase({ app }: AppShowcaseProps) {
                       <p className="text-sm text-white/70">{appTestimonial.role}</p>
                     </div>
                   </div>
+
+                  {/* Privacy Policy link for AI Poster */}
+                  {app.slug === 'ai-poster' && (
+                    <Link
+                      href="/apps/ai-poster/privacy"
+                      className="mt-6 inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm"
+                    >
+                      <span>Privacy Policy</span>
+                      <ArrowRight className="w-4 h-4" />
+                    </Link>
+                  )}
                 </motion.div>
               )}
             </div>
