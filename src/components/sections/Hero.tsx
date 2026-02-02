@@ -4,6 +4,7 @@ import { motion } from 'motion/react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { LanguageSwitcher } from '@/components/ui/LanguageSwitcher';
+import Image from 'next/image';
 
 export function Hero() {
   const t = useTranslations('hero');
@@ -84,13 +85,29 @@ export function Hero() {
               <span className="text-gray-400 tracking-[0.3em] uppercase text-sm">{t('accent')}</span>
             </motion.div>
 
-            {/* Giant artistic headline */}
-            <h1 className="text-[clamp(3rem,10vw,9rem)] font-black leading-[0.9] mb-8 tracking-tight">
-              <span className="block text-white">{t('title1')}</span>
-              <span className="block bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent">
-                {t('title2')}
-              </span>
-            </h1>
+            {/* Giant artistic headline with logo */}
+            <div className="flex items-center gap-6 md:gap-8 mb-8">
+              <motion.div
+                initial={{ opacity: 0, scale: 0.5, rotate: -180 }}
+                animate={{ opacity: 1, scale: 1, rotate: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+              >
+                <Image
+                  src="/logo.png"
+                  alt="Various Apps Logo"
+                  width={180}
+                  height={180}
+                  className="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 object-contain drop-shadow-2xl"
+                  priority
+                />
+              </motion.div>
+              <h1 className="text-[clamp(2.5rem,8vw,7rem)] font-black leading-[0.9] tracking-tight">
+                <span className="block text-white">{t('title1')}</span>
+                <span className="block bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent">
+                  {t('title2')}
+                </span>
+              </h1>
+            </div>
 
             {/* Tagline with experimental positioning */}
             <div className="relative ml-0 lg:ml-32 max-w-xl">

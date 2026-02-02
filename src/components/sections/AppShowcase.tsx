@@ -249,26 +249,15 @@ export function AppShowcase({ app }: AppShowcaseProps) {
               <div className="relative mx-auto">
                 {/* Use real mockups for apps that have them, gradient placeholder for ai-poster */}
                 {app.slug === 'ai-poster' ? (
-                  <div className="relative lg:scale-[1.4] lg:origin-center">
-                    <div className={`w-full aspect-[4/3] bg-gradient-to-br ${app.gradient} rounded-3xl shadow-2xl flex items-center justify-center p-8`}>
-                      <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 w-full h-full flex flex-col items-center justify-center gap-6">
-                        <div className="w-20 h-20 rounded-2xl bg-white/20 flex items-center justify-center">
-                          <span className="text-4xl font-black text-white">AI</span>
+                  <div className="relative max-w-sm mx-auto">
+                    <div className={`w-full aspect-square bg-gradient-to-br ${app.gradient} rounded-3xl shadow-2xl flex items-center justify-center p-6`}>
+                      <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 w-full h-full flex flex-col items-center justify-center gap-4">
+                        <div className="w-16 h-16 rounded-2xl bg-white/20 flex items-center justify-center">
+                          <span className="text-3xl font-black text-white">AI</span>
                         </div>
                         <div className="text-center">
-                          <p className="text-white/90 text-xl font-bold mb-2">Dashboard Coming Soon</p>
+                          <p className="text-white/90 text-lg font-bold mb-1">Coming Soon</p>
                           <p className="text-white/60 text-sm">Web Application</p>
-                        </div>
-                        <div className="flex gap-4 mt-4">
-                          <div className="w-16 h-16 rounded-xl bg-white/10 flex items-center justify-center">
-                            <span className="text-2xl">📊</span>
-                          </div>
-                          <div className="w-16 h-16 rounded-xl bg-white/10 flex items-center justify-center">
-                            <span className="text-2xl">🤖</span>
-                          </div>
-                          <div className="w-16 h-16 rounded-xl bg-white/10 flex items-center justify-center">
-                            <span className="text-2xl">📱</span>
-                          </div>
                         </div>
                       </div>
                     </div>
