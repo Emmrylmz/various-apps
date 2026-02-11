@@ -169,6 +169,7 @@ export function ContactSection() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-center md:text-left">
               <p className="text-2xl md:text-3xl font-black mb-2">VARIOUS APPS</p>
+              <p className="text-gray-400 text-sm mb-1">Emir Yılmaz</p>
               <p className="text-gray-500 text-sm">&copy; 2024 {t('footer.copyright')}</p>
             </div>
 
