@@ -79,7 +79,7 @@ export function ContactSection() {
             </p>
 
             <motion.a
-              href="mailto:hello@variousapps.com"
+              href="mailto:admin@various-apps.com"
               className="group inline-flex items-center gap-4 px-8 md:px-12 py-4 md:py-6 bg-white text-black font-black text-lg md:text-xl hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 hover:text-white transition-all duration-300"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -97,7 +97,7 @@ export function ContactSection() {
               transition={{ delay: 0.3 }}
             >
               <span className="text-sm uppercase tracking-widest">{t('emailLabel')}</span>
-              <p className="text-xl md:text-2xl text-white font-bold mt-2">hello@variousapps.com</p>
+              <p className="text-xl md:text-2xl text-white font-bold mt-2">admin@various-apps.com</p>
             </motion.div>
           </motion.div>
 

@@ -182,11 +182,11 @@ export default async function PrivacyPolicyPage({ params }: PrivacyPageProps) {
               If you have any questions about this Privacy Policy or wish to exercise your rights, please contact us at:
             </p>
             <a
-              href="mailto:hello@variousapps.com"
+              href="mailto:admin@various-apps.com"
               className="inline-flex items-center gap-2 text-violet-400 hover:text-violet-300 transition-colors font-bold"
             >
               <Mail className="w-5 h-5" />
-              hello@variousapps.com
+              admin@various-apps.com
             </a>
           </div>
 
