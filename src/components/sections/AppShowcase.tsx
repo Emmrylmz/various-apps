@@ -249,7 +249,7 @@ export function AppShowcase({ app }: AppShowcaseProps) {
               <div className="relative mx-auto">
                 {/* Use real mockups for apps that have them */}
                 {app.slug === 'ai-poster' ? (
-                  <div className="relative lg:scale-[1.2] lg:origin-center">
+                  <div className="relative">
                     <Image
                       src="/apps/ai-poster/mockups/screenshot.png"
                       alt="AI Poster App Screenshot"
