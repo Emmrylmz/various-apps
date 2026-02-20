@@ -247,20 +247,17 @@ export function AppShowcase({ app }: AppShowcaseProps) {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <div className="relative mx-auto">
-                {/* Use real mockups for apps that have them, gradient placeholder for ai-poster */}
+                {/* Use real mockups for apps that have them */}
                 {app.slug === 'ai-poster' ? (
-                  <div className="relative max-w-sm mx-auto">
-                    <div className={`w-full aspect-square bg-gradient-to-br ${app.gradient} rounded-3xl shadow-2xl flex items-center justify-center p-6`}>
-                      <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 w-full h-full flex flex-col items-center justify-center gap-4">
-                        <div className="w-16 h-16 rounded-2xl bg-white/20 flex items-center justify-center">
-                          <span className="text-3xl font-black text-white">AI</span>
-                        </div>
-                        <div className="text-center">
-                          <p className="text-white/90 text-lg font-bold mb-1">Coming Soon</p>
-                          <p className="text-white/60 text-sm">Web Application</p>
-                        </div>
-                      </div>
-                    </div>
+                  <div className="relative lg:scale-[1.2] lg:origin-center">
+                    <Image
+                      src="/apps/ai-poster/mockups/screenshot.png"
+                      alt="AI Poster App Screenshot"
+                      width={1400}
+                      height={800}
+                      className="w-full h-auto rounded-2xl shadow-2xl"
+                      priority
+                    />
                   </div>
                 ) : (
                   <div className="relative lg:scale-[1.8] lg:origin-center lg:translate-x-[15%]">
